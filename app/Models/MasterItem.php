@@ -10,6 +10,7 @@ class MasterItem extends Model
 {
     use HasFactory;
     use SoftDeletes;
+<<<<<<< HEAD
 
 
     public function categories()
@@ -21,4 +22,6 @@ class MasterItem extends Model
         'category_id'
     );
     }
+=======
+>>>>>>> 59349ba4b3313a064bf732f00c507c73fff769d5
 }

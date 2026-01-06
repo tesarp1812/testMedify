@@ -21,7 +21,10 @@ return new class extends Migration
             $table->integer('laba');
             $table->string('supplier');
             $table->string('jenis');
+<<<<<<< HEAD
             $table->string('foto')->nullable();
+=======
+>>>>>>> 59349ba4b3313a064bf732f00c507c73fff769d5
             $table->timestamps();
             $table->softDeletes();
         });

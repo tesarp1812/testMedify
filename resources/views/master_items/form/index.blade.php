@@ -4,6 +4,7 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
+<<<<<<< HEAD
 
             <div class="form-group mb-2">
                 <a href="{{ url('master-items') }}" class="btn btn-secondary">
@@ -23,11 +24,24 @@
                 <div class="card-header">
                     {{ $method == 'new' ? 'Buat Master Item Baru' : 'Edit Master Item' }}
                 </div>
+=======
+            <div class="form-group mb-2">
+                <a href="{{url('master-items')}}" class="btn btn-secondary">Kembali ke Daftar Item</a>
+            </div>
+            <div class="card">
+
+                @if($method == 'new')
+                <div class="card-header">Buat Master Item Baru</div>
+                @else
+                <div class="card-header">Edit Master Item</div>
+                @endif
+>>>>>>> 59349ba4b3313a064bf732f00c507c73fff769d5
 
                 <div class="card-body">
                     @include('master_items.form.form')
                 </div>
             </div>
+<<<<<<< HEAD
 
         </div>
     </div>
@@ -82,10 +96,17 @@
 
             </form>
 
+=======
+>>>>>>> 59349ba4b3313a064bf732f00c507c73fff769d5
         </div>
     </div>
 </div>
 @endsection
+<<<<<<< HEAD
 
 @section('js')
 @endsection
+=======
+@section('js')
+@endsection
+>>>>>>> 59349ba4b3313a064bf732f00c507c73fff769d5

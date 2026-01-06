@@ -22,6 +22,7 @@
         <input type="number" class="form-control" name="laba" required  value="{{$item->laba ?? ''}}">
     </div>
 
+<<<<<<< HEAD
     <div class="form-group">
         <label>Kategori</label>
         <select name="categories[]" class="form-control" id="kategori">
@@ -32,6 +33,8 @@
         </select>
     </div>
 
+=======
+>>>>>>> 59349ba4b3313a064bf732f00c507c73fff769d5
     @php $selected = $item->supplier ?? ''; @endphp
     <div class="form-group">
         <label>Supplier</label>

@@ -28,6 +28,7 @@ Route::post('/master-items/form/{method}/{id?}', [App\Http\Controllers\MasterIte
 
 Route::get('/master-items/view/{kode}', [App\Http\Controllers\MasterItemsController::class, 'singleView']);
 Route::get('/master-items/delete/{id}', [App\Http\Controllers\MasterItemsController::class, 'delete']);
+<<<<<<< HEAD
 Route::get(
     '/master-items/export/excel',
     [App\Http\Controllers\MasterItemsController::class, 'exportExcel']
@@ -43,3 +44,8 @@ Route::get('/categories/form/{method}/{id?}', [App\Http\Controllers\MasterItemsC
 Route::post('/categories/form/{method}/{id?}', [App\Http\Controllers\MasterItemsController::class, 'formCategoriesSubmit']);
 
 Route::get('/categories/print/{id}',[App\Http\Controllers\MasterItemsController::class, 'printCategoryPdf'])->name('categories.print');
+=======
+
+
+Route::get('/master-items/update-random-data', [App\Http\Controllers\MasterItemsController::class, 'updateRandomData']);
+>>>>>>> 59349ba4b3313a064bf732f00c507c73fff769d5
